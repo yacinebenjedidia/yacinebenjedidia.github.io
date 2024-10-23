@@ -1,0 +1,12 @@
+/* Default styles */
+iframe {
+  width: 100%; /* Initially set to 100% */
+  height: 600px; /* Initial height */
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  iframe {
+    height: 400px; /* Adjust height for smaller screens */
+  }
+}
